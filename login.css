@@ -1,0 +1,52 @@
+body{
+	font-family: sans-serif;
+	background:url(back.png);
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	height: 500px;
+	background:url(white.jpg);
+	margin: 10px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: blue;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	
+	border-radius: 3px;
+	padding: 10px 20px;
+	margin-left: -20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
